@@ -4,7 +4,7 @@
 
 ### majorityGate
 
-change the input selectors in any combination to figure out if the majority are true or noe
+change the input selectors in any combination to figure out if the majority are true or not
 
 
 ### firstDuplicate
@@ -20,4 +20,4 @@ Enter any number into the input box to calculate the French weeks
 ### minDiscCirc
 
 Is the given point inside or outside the circle?
-This calculation will take some furtherf research
+This calculation will take some further research
