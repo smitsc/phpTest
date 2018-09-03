@@ -1,7 +1,7 @@
 <?php
 
 function minDiscCirc($xPos, $yPos) {
-	return 'This function will require some research!<br/>Is the given point (' . $xPos . ',' . $yPos .') inside or outside the circle?';
+	return sprintf("The minimum distance to the circle is %.2f </br>", sqrt(($xPos*$xPos)+($yPos*$yPos))-1);
 }
 
 function majorityGate($a,$b,$c,$d){
@@ -11,7 +11,7 @@ function majorityGate($a,$b,$c,$d){
 function frenchWeeks($x) {
 	$y = (integer) (($x*7)/10);
 	$z = ($x*7)%10;
-	return $y . " French weeks   - " . $z . " French Days   - 0 French Fries";
+	return sprintf("%s French weeks   - %s French Days   - 0 French Fries", $y, $z);
 }
 
 function firstDuplicate($array){
